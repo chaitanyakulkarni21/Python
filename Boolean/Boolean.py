@@ -14,3 +14,11 @@ if a > b:
     print("a is greater than b")
 else:
     print("b is greater than a")
+
+print(" ")
+
+#The bool() function evaluates any value as TRUE / FALSE 
+
+print("Bool Function: ")
+print(bool("Hello"))
+print(bool(25))
