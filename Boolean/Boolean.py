@@ -20,5 +20,6 @@ print(" ")
 #The bool() function evaluates any value as TRUE / FALSE 
 
 print("Bool Function: ")
-print(bool("Hello"))
-print(bool(25))
+print(bool("Hello")) #Returns TRUE
+print(bool(25))     #Returns TRUE
+print(bool(20<9))   #Returns FALSE 
