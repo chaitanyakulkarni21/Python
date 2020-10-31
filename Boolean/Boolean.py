@@ -23,3 +23,33 @@ print("Bool Function: ")
 print(bool("Hello")) #Returns TRUE
 print(bool(25))     #Returns TRUE
 print(bool(20<9))   #Returns FALSE 
+
+print(" ")
+print("Evaluate two variables : ")
+x = 17
+y = 23
+z = 0
+print(bool(x))  #TRUE
+print(bool(y))  #TRUE
+print(bool(z))  #FALSE
+
+print(" ")
+
+print("Empty String : ")
+x = "" #Empty String
+print(bool(x))
+print(" ")
+
+#The following will return false
+print("Empty strings Statements: ")
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}))
+
+
+
+
