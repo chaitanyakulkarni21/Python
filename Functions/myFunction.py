@@ -23,6 +23,8 @@ def MultilpleArg(Fname, Lname):
 
 MultilpleArg(Fname, Lname)
 
+print(" ")
+
 #Arithmetic Operations using Functions 
 def ArithmeticOperations(x,y):
   print(x + y)
