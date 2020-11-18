@@ -9,12 +9,8 @@ print(arr)                      #Prints the created array
 print(type(arr))                #Prints the class of the array 
 print(" ")
 
-import numpy
-arr = numpy.ndarray((5,4,3,2,1))
-print(type(arr))
 
 #Calculating Mean and Median using the NumPy module
-
 import numpy
 speed = [23,56,23,45,23,23,78,15,66,23,2,89]
 avg = numpy.mean(speed)           #Calculates the mean of the numbers 
@@ -25,7 +21,6 @@ print("The median of the given numbers is : ",avg)
 print(" ")
 
 #Calculating the mode of the given numbers 
-
 from scipy import stats 
 avg = [23,56,23,45,23,23,78,15,66,23,2,89]
 x = stats.mode(avg)
