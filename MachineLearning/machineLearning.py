@@ -21,7 +21,7 @@ print("The median of the given numbers is : ",avg)
 print(" ")
 
 #Calculating the mode of the given numbers 
-from scipy import stats 
+from scipy import stats                   #mode method is imported from SciPy library
 avg = [23,56,23,45,23,23,78,15,66,23,2,89]
 x = stats.mode(avg)
 print("The mode of the given numbers is : ", x) #The mode() method returns the ModeResult(Modenumber and mode count)
