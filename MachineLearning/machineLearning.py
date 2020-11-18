@@ -24,4 +24,20 @@ print(" ")
 from scipy import stats 
 avg = [23,56,23,45,23,23,78,15,66,23,2,89]
 x = stats.mode(avg)
-print("The mode of the given numbers is : ", avg)
+print("The mode of the given numbers is : ", x) #The mode() method returns the ModeResult(Modenumber and mode count)
+print(" ")
+
+
+#Calculating Standard Deviation
+import numpy
+speed = [23,56,23,45,23,23,78,15,66,23,2,89]
+avg = numpy.std(speed)
+print("The Standard Deviation is : ",avg)
+print(" ")
+
+#Calculating Variance using the Numpy method
+import numpy
+avg = [45,67,89,12,34,56,78,90]
+x = numpy.var(avg)
+print("The Variance of the entered array is :",x)
+print(" ")
