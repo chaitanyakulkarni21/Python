@@ -41,3 +41,27 @@ avg = [45,67,89,12,34,56,78,90]
 x = numpy.var(avg)
 print("The Variance of the entered array is :",x)
 print(" ")
+
+#Calculating Percentile using the Numpy method 
+import numpy
+ages = [5,31,43,48,50,41,7,11,15,39,80,82,32,2,8,6,25,36,27,61,31]
+print(ages)
+x = numpy.percentile(ages,75)
+print("Percentile : ",x)
+print(" ")
+
+#Data Distribution
+#Generating random sets of numbers using the Numpy method 
+import numpy
+x = numpy.random.uniform(0,5,10)
+print(x)
+print(" ")
+
+#Histogram
+#Draw a histogram
+import numpy
+import matplotlib.pylot as plt 
+x = numpy.random.uniform(0.0,5.0,250)
+plt.hist(x,5)
+plt.show()
+print(" ")
