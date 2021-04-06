@@ -3,6 +3,7 @@ import numpy as np
 
 class Dictionary:
   dict = {}
+  #df = pd.DataFrame()
   def addItems(self):
     len = int(input("Enter length of Dictionary: "))
     for i in range(1,len+1):
@@ -11,7 +12,13 @@ class Dictionary:
       print(' ')
       self.dict[key] = i
       self.dict[key] = value
-    print("Dictionary : ", self.dict)
+    print(' ')
+    print("Dictionary: ", self.dict)
+    #df = pd.DataFrame((i[0] for i in self.dict))
+    #df = pd.DataFrame(self.dict.items())
+    df = pd.DataFrame(self.dict.items())
+    print("Dictionary to Data Frame: ")
+    print(df)
 
 class List:
   list = []
@@ -28,6 +35,7 @@ class List:
     print(' ')
     print("List: ", self.list)
     series = pd.Series((i[0] for i in self.list))
+    print("List to Series: ")
     print(series)
 
 d = Dictionary()
