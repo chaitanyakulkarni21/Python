@@ -1,3 +1,6 @@
+import pandas as pd
+import numpy as np 
+
 class Dictionary:
   dict = {}
   def addItems(self):
@@ -12,6 +15,7 @@ class Dictionary:
 
 class List:
   list = []
+  series = pd.Series()
   def addItems(self):
     len = int(input("Enter the length of List: "))
     for i in range(1, len+1):
@@ -23,6 +27,9 @@ class List:
         self.list.append(input("Enter {}th list item: ".format(i)))
     print(' ')
     print("List: ", self.list)
+    series = pd.Series((i[0] for i in self.list))
+    print(series)
+
 d = Dictionary()
 d.addItems()
 print(' ')
