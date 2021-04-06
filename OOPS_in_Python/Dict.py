@@ -14,8 +14,6 @@ class Dictionary:
       self.dict[key] = value
     print(' ')
     print("Dictionary: ", self.dict)
-    #df = pd.DataFrame((i[0] for i in self.dict))
-    #df = pd.DataFrame(self.dict.items())
     df = pd.DataFrame(self.dict.items())
     print("Dictionary to Data Frame: ")
     print(df)
