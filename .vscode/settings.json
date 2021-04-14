@@ -1,5 +1,9 @@
 {
-  "editor.fontFamily": "Consolas",
+  "editor.fontFamily": "\"JetBrains Mono\" ,Consolas, 'Courier New', monospace",
   "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 17,
+  "debug.console.fontFamily": "",
+  "debug.console.fontSize": 18,
   
 }

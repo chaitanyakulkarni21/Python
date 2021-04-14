@@ -10,10 +10,11 @@ class Dictionary:
       key = input("Enter key : ")
       value = input("Enter value for the key {}: ".format(key))
       print(' ')
-      self.dict[key] = i
+      #self.dict[key] = i
       self.dict[key] = value
     print(' ')
     print("Dictionary: ", self.dict)
+    print(type(self.dict))
     df = pd.DataFrame(self.dict.items())
     print("Dictionary to Data Frame: ")
     print(df)
@@ -32,7 +33,7 @@ class List:
         self.list.append(input("Enter {}th list item: ".format(i)))
     print(' ')
     print("List: ", self.list)
-    series = pd.Series((i[0] for i in self.list))
+    series = pd.Series(self.list)
     print("List to Series: ")
     print(series)
 
