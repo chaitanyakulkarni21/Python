@@ -4,5 +4,7 @@
   "debug.console.fontFamily": "",
   "debug.console.fontSize": 18,
   "editor.fontSize": 17,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontSize": 17,
   
 }

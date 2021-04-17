@@ -61,3 +61,10 @@ print(' ')
 
 print("Negative Indexing: ")
 print("Last element of 2d array: ", arr2[2,-1])
+print(" ")
+
+print("Copying and Viewing of Arrays ")
+print("Copy: ")
+x = arr1.copy()
+print("Original Array: ", arr1)
+print("Copied array: ",x)
