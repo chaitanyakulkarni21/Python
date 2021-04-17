@@ -43,4 +43,4 @@ for col, value in df.items():
  sns.distplot(value, ax = ax[index])
  index += 1
 
-plt.show()
+# plt.show()

@@ -54,3 +54,23 @@ list2.remove("New element")
 myTuple2 = tuple(list2)
 print("New element removed")
 print(myTuple2)
+
+print("TUPLE UNPACKING")
+
+newTuple = (4,5,6)
+print("New Tuple: ", newTuple)
+
+x,y,z = newTuple
+print("After Tuple Unpacking...x,y and z are as follows..")
+print("x = ",x)
+print("y = ",y)
+print("z = ",z)
+
+newTuple = (5,6,7,8,9,2,3,4,4,5)
+
+for i in newTuple:
+  a,b,c = newTuple[i]
+
+print("a = ",a)
+print("b = ",b)
+print("c = ",c)
