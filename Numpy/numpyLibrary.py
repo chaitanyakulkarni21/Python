@@ -64,7 +64,27 @@ print("Last element of 2d array: ", arr2[2,-1])
 print(" ")
 
 print("Copying and Viewing of Arrays ")
-print("Copy: ")
+print("Copying of Arrays: ")
 x = arr1.copy()
 print("Original Array: ", arr1)
 print("Copied array: ",x)
+x[3] = 999
+print("Original Array: ", arr1)
+print("Updated copied array: ", x)
+print("Changes made in the copied array does not affect the original array")
+print(' ')
+
+print("Viewing of Arrays: ")
+y = arr1.view()
+print("Original array: ", arr1)
+print("Viewed array: ", y)
+print(' ')
+y[4]=19999
+print("Original array: ", arr1)
+print("Viewed array: ", y)
+print("Changes made in the viewed array are reflected into the Original Array")
+print(' ')
+
+print("Check if the array owns the data: ")
+print("Copied: ", x.base)
+print("Viewed: ",y.base)

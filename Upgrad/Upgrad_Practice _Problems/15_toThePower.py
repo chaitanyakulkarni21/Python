@@ -1,0 +1,7 @@
+#Q.15 WAP to find X**(y+z)
+x,y,z = map(int,input("Enter three numbers: ").split())
+print(x,y,z)
+print(type(x))
+print(type(y))
+print(type(z))
+print("Result: ",x**(y+z))
